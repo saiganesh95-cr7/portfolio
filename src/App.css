@@ -56,12 +56,12 @@ body {
 .header.sticky {
     background: var(--bg-color);
     box-shadow: 0 .1rem 1rem var(--shadow-color);
-    border-radius: 999rem 999rem;
+    /* border-radius: 999rem 999rem;
     max-width: calc(90%);
     left: 5%;
     right: 5%;
     margin-top: 1%;
-    border:2px solid #2febf5;
+    border:2px solid #2febf5; */
 }
 
 .logo {
@@ -458,7 +458,7 @@ span {
 
 
 
-@media (max-width:900px) {
+@media only screen and (max-width:600px) {
     header {
         display: flex;
         flex-direction: column;
@@ -472,7 +472,7 @@ span {
         justify-content: space-evenly;
     }
     header .bx{
-        margin-left: 490px;
+        margin-left: 450px;
         border-radius: 30%;
         background-color:rgb(74, 242, 192);
     }
@@ -482,9 +482,12 @@ span {
         flex-wrap: wrap;
         margin-top:150px;
     }
-
+    section .home-img{
+        margin-left:490px;
+        filter: drop-shadow(5px 5px 5px);
+     }
     section .home-content{
-        margin-bottom:-150%;
+        margin-bottom:-250%;
         margin-left: auto;
     }
 
@@ -496,8 +499,6 @@ span {
 
     .portfolio-box{
         min-height: 200px;
-        min-width: 150px;
-        margin: auto;
     }
 
 

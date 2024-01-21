@@ -83,8 +83,8 @@ function App() {
   
       ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
       ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .testimonial-wrapper, .contact form', { origin: 'bottom' });
-      ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
-      ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });
+      ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'top' });
+      ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'top' });
   
       /*========== Event Listeners ==========*/
      
