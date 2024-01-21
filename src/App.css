@@ -458,7 +458,7 @@ span {
 
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
     header {
         display: flex;
         flex-direction: column;
@@ -487,12 +487,8 @@ span {
         filter: drop-shadow(5px 5px 5px);
      }
     section .home-content{
-        margin-bottom:-300%;
+        margin-bottom:-250%;
         margin-left: auto;
-    }
-
-    .about{
-        margin-top: 300px;
     }
 
     .portfolio-container{
