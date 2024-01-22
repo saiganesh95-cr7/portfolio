@@ -11,6 +11,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 :root {
     --bg-color: #fdfdfd;
     --text-color: #333;
@@ -476,14 +478,17 @@ span {
         border-radius: 30%;
         background-color:rgb(74, 242, 192);
     }
-
+    .home-img img{
+        height: 400px;
+        width: 400px;
+    }
     section{
         display:wrap;
         flex-wrap: wrap;
         margin-top:150px;
     }
     section .home-img{
-        margin-left:490px;
+        margin-left:450px;
         filter: drop-shadow(5px 5px 5px);
      }
     section .home-content{

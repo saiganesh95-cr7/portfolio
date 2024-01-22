@@ -13,6 +13,8 @@ import port2 from '../src/images/staygold.jpeg';
 import port3 from '../src/images/ibm.png';
 
 
+import Spline from '@splinetool/react-spline';
+
 
 
 
@@ -154,6 +156,7 @@ function App() {
   
       <div class="home-img">
           <img src={homepsg} alt=""></img>
+   
       </div>
   </section>
   
@@ -303,8 +306,7 @@ function App() {
           <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
       </div>
   </footer>
-  
-  
+
 
    
    </body>
