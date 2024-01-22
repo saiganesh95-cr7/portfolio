@@ -11,9 +11,8 @@ import homepsg from '../src/images/PhotoRoom-20230818_003328.png';
 import port1 from '../src/images/bloodbank.jpeg';
 import port2 from '../src/images/staygold.jpeg';
 import port3 from '../src/images/ibm.png';
+import commingsoon from './images/coming-soon.webp'
 
-
-import Spline from '@splinetool/react-spline';
 
 
 
@@ -247,7 +246,7 @@ function App() {
               </div>
           </div>
           <div class="portfolio-box">
-              <img src={port1} alt=""></img>
+              <img src={commingsoon} alt=""></img>
   
               <div class="portfolio-layer">
                   <h4>Comming Soon</h4>
@@ -256,7 +255,7 @@ function App() {
               </div>
           </div>
           <div class="portfolio-box">
-              <img src={port1} alt=""></img>
+              <img src={commingsoon} alt=""></img>
   
               <div class="portfolio-layer">
                   <h4>Comming Soon</h4>
@@ -265,7 +264,7 @@ function App() {
               </div>
           </div>
           <div class="portfolio-box">
-              <img src={port1} alt=""></img>
+              <img src={commingsoon} alt=""></img>
   
               <div class="portfolio-layer">
                   <h4>Comming Soon</h4>

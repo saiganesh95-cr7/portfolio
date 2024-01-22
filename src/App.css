@@ -304,15 +304,22 @@ span {
 }
 
 .portfolio .portfolio-container {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 2.5rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: wrap;
+    flex-wrap: wrap;
 }
 
 .portfolio-container .portfolio-box {
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
     position: relative;
-    display: flex;
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
     overflow: hidden;
@@ -464,47 +471,39 @@ span {
     header {
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
      .header a{
         margin-left: auto;
      }
     header nav{
         flex-direction:row;
-        justify-content: space-evenly;
+        transform: scale(0.7);
     }
     header .bx{
-        margin-left: 450px;
-        border-radius: 30%;
-        background-color:rgb(74, 242, 192);
+        margin-left: 320px;
+        border-radius:100px 10px 10px 100px;
+        background-color:var(--main-color);
+        padding: 13px;
     }
     .home-img img{
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
     }
     section{
-        display:wrap;
-        flex-wrap: wrap;
+        display:flex;
+        flex-direction:column;
         margin-top:150px;
     }
-    section .home-img{
-        margin-left:450px;
-        filter: drop-shadow(5px 5px 5px);
-     }
+   
     section .home-content{
-        margin-bottom:-250%;
-        margin-left: auto;
-    }
-
-    .portfolio-container{
-        display: flex;
-        flex-direction: column;
+        margin-top:450px;
     
     }
-
-    .portfolio-box{
-        min-height: 200px;
+    .home-content h1{
+       font-size: xx-large;
+       padding: 10px;
     }
+
 
 
  
