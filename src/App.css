@@ -128,13 +128,14 @@ section {
 
 .home {
     display: flex;
-    align-items: center;
-    /* background: linear-gradient(128deg,transparent  69%,rgb(181, 179, 187) 70%);  */
-background: linear-gradient(45deg, rgb(181, 179, 187) 52%,transparent 50%);
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(45deg, rgb(181, 179, 187) 52%,transparent 50%);
 }
 
 .home .home-content {
     max-width: 44rem;
+    margin-top: 100px;
 }
 
 .home-content h3 {
@@ -196,9 +197,6 @@ background: linear-gradient(45deg, rgb(181, 179, 187) 52%,transparent 50%);
 
 
 .home-img img {
-    position: absolute;
-    bottom: 100px;
-    right: 40px;
     pointer-events: none;
     max-width: 480px;
     max-height: 100vh;
@@ -481,10 +479,15 @@ span {
     }
     header .bx{
         margin-left: 320px;
-        border-radius:100px 10px 10px 100px;
+        border-radius:100px;
         background-color:var(--main-color);
         padding: 13px;
     }
+    .home{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
     .home-img img{
         height: 300px;
         width: 300px;
